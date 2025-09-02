@@ -10,7 +10,7 @@ pipeline {
       steps {
         // sh 'echo passed'
         git branch: 'main', url: 'https://github.com/abheelasha/java-maven-sonar-argocd-helm-k8s.git'
-        credentialsId: 'github'
+        // credentialsId: 'github'
       }
     }
     stage('Build and Test') {
